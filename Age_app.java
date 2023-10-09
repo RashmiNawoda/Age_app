@@ -2,14 +2,16 @@
 public class Age_app {
 
 	public static void main(String[] args) {
-		
+		//Initialize the age variable and Check if the age is greater than 0 and less than 18.
 		int age = 10;
 		if (age > 0 && age < 18)
 		{
+		// Display a message if the condition is true.
 			System.out.println("You are underage.");
 		}
 		else 
 		{ 
+		// Display a message if the condition is false.
 			System.out.println("You are an adult.");
 		}
 		System.out.println("Press space to exit.");
