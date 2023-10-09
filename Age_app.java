@@ -55,11 +55,13 @@ public class Age_app {
 		
 		if (age==18)
 		{
+			 // If the age is exactly 18, print a message about driving a car.
 			System.out.println("You can drive a car");
 		}
 		else if (age==10 ||age==20||age==30||age==40||age==50||age==60||age==70||age==80||age==90||age==100||age==110||age==120);
 		{
-			System.out.println("Anniversary Party!!");
+			 // If the age matches one of the specified values, print a message about an anniversary party
+                        System.out.println("Anniversary Party!!");
 		}
 		 if(age == 100)
 		 {
